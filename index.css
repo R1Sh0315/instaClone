@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display&family=Akaya+Kanadaka&display&family=Yellowtail&display&family=Special+Elite&family=Audiowide&display=swap');
+
+a{
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-size: 19pt;
+}
+.logo{
+    color:black;
+    /* border: 1px solid black; */
+    padding-left: 10px;
+    margin: 2px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    height: 3.3em;
+    box-shadow: 0px 2px 6px #726f6f;
+}
+
+span{
+    /* border: 1px solid black; */
+    width: 20%;
+}
+
+#search-input{
+    height: 10px;
+    margin-top: 8px;
+}
+
+.far, .fas{
+    color: black;
+    margin-left: 10px;
+    margin-top:7px;
+    transform: scale(0.8);
+}
+
+.fa-user{
+    border:2px solid black;
+    border-radius: 25px;
+    padding: 7px;
+}
+
+.bio{
+    border-bottom:1px solid rgb(175, 169, 169);
+    height: 16em;
+    margin: 0px 17em;
+    display: flex;
+}
+
+.user-profile{
+    width: 35%;
+}
+.user-img{
+    border:1px solid none;
+    border-radius: 50%;
+    margin: 15% 21%;
+}
+
+.user-details-container{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row-1{
+    height: 2.5em;
+    display: flex;
+    flex-direction: row;
+}
+.r1c2{
+    padding-top:5px ;
+}
+.r1c3{
+    padding:5px 20px ;
+}
+.username{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 20pt;
+    margin: 15px;    
+}
+.edit-profile-btn{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.row-2{
+    height: 2em;    
+    display: flex;
+    flex-direction: row;
+}
+.post-fol{
+    padding-bottom: 12px ;
+    width: 9em;
+    margin-left: 15px;
+}
+
+.row-3{
+    margin-left: 15px;
+}
+.likes{
+    font-family: 'Yellowtail', cursive;
+}
+
+.list{
+    font-family: 'Audiowide', cursive;;
+}
